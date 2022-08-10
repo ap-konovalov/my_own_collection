@@ -1,0 +1,6 @@
+---
+- name: Run my_owm_module
+  hosts: localhost
+  become: true
+  roles:
+     - create_txt
