@@ -3,5 +3,5 @@
   tasks:
   - name: Create .txt file with content
     my_own_module:
-      path: {{ path }}
-      content: {{ content }}
+      path: "{{ path }}"
+      content: "{{ content }}"
