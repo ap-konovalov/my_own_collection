@@ -1,0 +1,7 @@
+---
+- name: Converge
+  hosts: all
+  tasks:
+    - name: "Include my_own_namespace.create_txt"
+      include_role:
+        name: "my_own_namespace.create_txt"

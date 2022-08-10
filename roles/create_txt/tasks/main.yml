@@ -1,0 +1,7 @@
+---
+# tasks file for create_txt
+  tasks:
+  - name: Create .txt file with content
+    my_own_module:
+      path: {{ path }}
+      content: {{ content }}
