@@ -4,4 +4,4 @@
   tasks:
     - name: "Include my_own_namespace.create_txt"
       include_role:
-        name: "my_own_namespace.create_txt"
+        name: "create_txt"
