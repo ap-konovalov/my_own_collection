@@ -1,6 +1,6 @@
 ---
 # tasks file for create_txt
-  - name: Create .txt file with content
-    my_own_module:
-      path: "{{ path }}"
-      content: "{{ content }}"
+    - name: Run my_own_module
+      my_own_module:
+         path: '{{ var_path }}'
+         content: '{{ var_content }}'

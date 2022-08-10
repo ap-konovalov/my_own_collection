@@ -1,4 +1,4 @@
 ---
 # defaults file for create_txt
-  path: "example.txt"
-  content: "some text"
+var_path: 'example.txt'
+var_content: 'some text'
